@@ -8,8 +8,12 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+#include "advanced_macros.h"
+
+using namespace std;
+using namespace CPP_ADVANCED;
+
+int main() {
+    execute();
     return 0;
 }
